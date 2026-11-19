@@ -1,0 +1,32 @@
+#mediaheader {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: transparent;
+}
+
+#fawm {
+  background-color: lavender;
+}
+
+#techtalk {
+   background-color: lightcyan;
+}
+
+.section {
+   margin-bottom: 1px;
+}
+
+h1 {
+  margin: 30px 0px;
+}
+
+h2 {
+  margin-bottom: 50px;
+  font-size: 30px;
+  line-height: 0.9em;
+}

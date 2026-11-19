@@ -1,0 +1,17 @@
+/* h1 {
+  margin: 40px;
+  color: white;
+} */
+
+img {
+  height: auto;
+  border: 1px solid grey;
+  max-width: 50%;
+}
+
+body {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

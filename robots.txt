@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /blog.html
+Disallow: /media.html
+Disallow: /shibas.html
+Disallow: /DMF.html

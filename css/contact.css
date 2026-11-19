@@ -1,0 +1,56 @@
+#herotext a {
+  padding: 0.625rem 1rem;
+  margin: 0.625rem 0.625rem;
+  font-size: 1.4rem;
+  line-height: 1.3333333;
+  border: 0.0625rem solid white;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  width: 10rem;
+  height: 5.125rem;
+  transition: all .1s ease-in-out;
+  border-radius: 1rem;
+}
+
+#herotext a:hover,
+#herotext a:focus {
+    border: 0.0625rem solid #9efff3;
+    outline: 0;
+    color: grey;
+    background-color: #9efff3;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#herotext {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  text-align: left;
+  align-self: center;
+}
+
+#herotext p {
+  width: 100%;
+}
+
+#herotext, .flex, .flex a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  #herotext {
+    width: 90%;
+  }
+}
+
+
+

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Product Manager; Berkeley MBA, Cornell, and Fullstack Academy alum. Previously @ PwC Advisory and Cisco. Now at Huntress.">
+  <meta name="author" content="Dean Guo">
+
+  <title>project: kit</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73120949-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-73120949-1');
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap (Only Grid) -->
+  <link href="css/bootstrap-mingrid.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/projects.css?v=20260729-3" rel="stylesheet">
+
+  <!-- FA Icons -->
+  <script src="https://use.fontawesome.com/665f8d3210.js"></script>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/musicbars.ico" type="image/x-icon" />
+
+  </script>
+</head>
+
+<body>
+  <nav>
+    <div id="nav">
+      <a href="./index.html" aria-label="Dean Guo home">
+        <i class="fa fa-tree" aria-hidden="true"></i>
+        <i class="fa fa-heart" aria-hidden="true"></i>
+      </a>
+
+      <div class="nav-group">
+        <a href="./contact.html">contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <section id="projectheader">
+      <div class="row flex">
+        <div class="col-sm-12 col-md-6">
+          <h1> </h1>
+          <h1> PodGPT: GenAI Exploration <time class="project-year" datetime="2024">(2024)</time></h1>
+          <div class="projectcontext">
+            <h4> <b>context</b> </h4>
+            <p>I built a personal webapp that lets me test various GenAI APIs.</p>
+            <p>I wanted to try coding using Copilot, and I was also interested in exploring different webapp frameworks to use as boilerplate for future projects.
+
+            <h4> <b>reflections & learnings</b> </h4>
+            <!-- <p>I loved building something from scratch and working on my
+              product, design, and development knowledge.</p> -->
+
+            <ol>
+              <li>Coding with AI help is a blast. I can easily stay in flow: making creative decisions instead of getting bogged down in unfamiliar syntax. Copilot and other tools dramatically reduced my friction. Even during the most annoying moments, such as troubleshooting nginx and Docker, having an assistant made things so much smoother.</li>
+              <li>Warning to Self: It's important to stay engaged when collaborating with AI. It's tempting to plug in errors back into the system and copy and paste the code it gives directly without thinking, but without building real understanding, what I build becomes much more fragile and unwieldy.</li>
+              <li>It's incredible how far web frameworks have come. I was able to stand up beautiful UI quickly with Mantine and configure production-ready containers with Docker. The amount of boilerplate that's required is the counterpoint to the abstraction that the frameworks help with, though.</li>
+            </ol>
+
+            <h4> <b>tech stack</b> </h4>
+            <ul>
+                <li><i>Backend:</i> Django with Gunicorn</li>
+                <li><i>Frontend:</i> React (Mantine Components) + Vite</li>
+                <li><i>Infrastructure:</i> Nginx + Docker deployed on Raspberry Pi 4 Model B</li>
+                <li><i>AI Models:</i> GPT-3-Turbo and GPT4o</li>
+              </ul>
+              <br />
+            <h4> <b>link to repo</b> </h4>
+            <p> <i class="fa fa-flask" aria-hidden="true"></i> <a
+                href="https://github.com/fourestfire/podgpt">Github</a></p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <img src="./img/PodGPTcrop.png"
+              class="img-responsive img-round"></img>
+        </div>
+      </div>
+
+
+    </section>
+    <div><br /></div>
+</body>
+
+</html>

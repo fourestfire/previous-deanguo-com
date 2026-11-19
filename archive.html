@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Older work and project pages from Dean Guo.">
+  <meta name="author" content="Dean Guo">
+
+  <title>Older work — Dean Guo</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73120949-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-73120949-1');
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- FA Icons -->
+  <script src="https://use.fontawesome.com/665f8d3210.js"></script>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/musicbars.ico" type="image/x-icon" />
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { min-height: 100%; }
+    body {
+      background: #101316;
+      color: #f8f7f1;
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .icon-home {
+      position: fixed;
+      top: 22px;
+      left: 26px;
+      z-index: 4;
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+      color: #f8f7f1;
+      text-decoration: none;
+    }
+    .icon-home i { font-size: 18px; }
+    .icon-home:hover { color: #9af8e9; }
+
+    .top-contact {
+      position: fixed;
+      top: 24px;
+      right: 28px;
+      z-index: 4;
+      color: #d9dfd7;
+      text-decoration: none;
+      font-size: 12px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+    .top-contact:hover { color: #9af8e9; }
+
+    main {
+      position: relative;
+      z-index: 2;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 130px 56px 80px 140px;
+    }
+
+    h1.title {
+      font-family: 'Crimson Text', serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: clamp(72px, 9vw, 120px);
+      line-height: 0.9;
+      letter-spacing: -0.02em;
+      margin: 0 0 14px -4px;
+    }
+
+    .lede {
+      color: #9aa1a3;
+      font-size: 15px;
+      max-width: 460px;
+      margin-bottom: 44px;
+    }
+
+    ul.list {
+      list-style: none;
+      border-top: 1px solid rgba(248, 247, 241, 0.16);
+    }
+    ul.list li {
+      border-bottom: 1px solid rgba(248, 247, 241, 0.16);
+    }
+    ul.list a {
+      color: #f8f7f1;
+      text-decoration: none;
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 20px;
+      align-items: baseline;
+      padding: 18px 4px;
+    }
+    ul.list a:hover { color: #9af8e9; }
+    ul.list .name {
+      font-family: 'Crimson Text', serif;
+      font-size: 24px;
+    }
+    ul.list .year {
+      margin-left: 8px;
+      color: #9aa1a3;
+      font-family: 'Raleway', sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+    ul.list .desc {
+      color: #9aa1a3;
+      font-size: 14px;
+    }
+    ul.list a:hover .desc { color: #c8d6c8; }
+    ul.list a:hover .year { color: #c8d6c8; }
+
+    @media (max-width: 820px) {
+      main { padding: 110px 28px 70px; }
+      ul.list a {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a href="./index.html" class="icon-home" aria-label="Dean Guo home">
+    <i class="fa fa-tree" aria-hidden="true"></i>
+    <i class="fa fa-heart" aria-hidden="true"></i>
+  </a>
+
+  <a href="./contact.html" class="top-contact">contact</a>
+
+  <main>
+    <h1 class="title">older work</h1>
+    <p class="lede">Earlier stuff. Kept around for context — not the current homepage story.</p>
+
+    <ul class="list">
+      <li><a href="./podgpt.html"><span class="name">PodGPT <time class="year" datetime="2024">(2024)</time></span><span class="desc">AI + podcasts experiment</span></a></li>
+      <li><a href="./kit.html"><span class="name">Keep in Touch <time class="year" datetime="2017">(2017)</time></span><span class="desc">React Native concept</span></a></li>
+      <li><a href="./agentportal.html"><span class="name">Agent Portal <time class="year" datetime="2016">(2016)</time></span><span class="desc">product / interface exploration</span></a></li>
+      <li><a href="./entwine.html"><span class="name">Entwine <time class="year" datetime="2017">(2017)</time></span><span class="desc">old design experiment</span></a></li>
+      <li><a href="./artshopper.html"><span class="name">Art Shopper <time class="year" datetime="2017">(2017)</time></span><span class="desc">past project page</span></a></li>
+      <li><a href="./media.html"><span class="name">Media <span class="year">(<time datetime="2016">2016</time> / <time datetime="2017">2017</time>)</span></span><span class="desc">older notes &amp; references</span></a></li>
+    </ul>
+  </main>
+</body>
+
+</html>

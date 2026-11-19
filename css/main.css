@@ -1,0 +1,203 @@
+/* ------------- */
+/* Global Styles */
+/* ------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkgrey;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  font-size: 12px;
+}
+
+#herotext p {
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+/* ------------- */
+/* Navbar Styles */
+/* ------------- */
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+#nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav a {
+  color: snow;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: 'Crimson Text', serif;
+}
+
+#nav a:hover{
+  color: #89fff0;
+  /*border-bottom: 5px solid purple;*/
+}
+
+.nav-group a {
+  padding: 10px 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  #nav {
+   width: 90%;
+  }
+
+  #nav a {
+   font-size: 18px;
+  }
+
+  .nav-group a {
+  padding: 5px 10px;
+  }
+}
+
+/* ----------------- */
+/* Hero Image Styles */
+/* ----------------- */
+
+#hero {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 22, 34, 1), rgba(108, 157, 255, 0.5));
+}
+
+#herotext {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -2%;
+  padding: 40px;
+  text-align: left;
+  color: snow;
+}
+#herotext h1 {
+  font-size: 60px;
+  padding: 30px 0;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+#herotext a {
+  color: rgb(179, 212, 255);
+  /* text-decoration: none; */
+}
+
+#herotext p {
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+#herotext ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#herotext li {
+  font-size: 25px;
+  letter-spacing: 1px;
+  padding: 10px 0; /* Add this line */
+}
+
+@media only screen and (max-width: 700px) {
+  #herotext h1 {
+    font-size: 40px;
+  }
+
+  #herotext p {
+    font-size: 18px;
+  }
+}
+
+
+/* ------------------- */
+/* Project Grid Styles */
+/* ------------------- */
+
+#projects .col-sm-12 {
+  padding: 0;
+  /*margin: 5px;*/
+}
+
+a img:hover {
+  opacity: 0.6;
+  transition: all .1s ease-in-out;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.projects {
+  position: relative;
+  /* height: 50vh; */
+  /* width: auto; */
+}
+
+/* .projects img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+} */
+
+.overlay {
+  font-family: 'Crimson Text', serif;
+  position: absolute;
+  pointer-events: none;
+  top: auto;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+.overlay h2 {
+  background-color: rgb(8, 43, 113);
+  padding: 1rem;
+  font-size: 2.5rem;
+  border-radius: 0.3rem;
+}
+
+/* ------------- */
+/* Footer Styles */
+/* ------------- */
+
+footer {
+  margin: 70px 20px 20px 0;
+  text-align: right;
+  font-size: 14px;
+}
+
+/* ------------------- */
+/* ThreeJS Cube Styles */
+/* ------------------- */
+
+canvas {
+	width: auto;
+	height: 100vh;
+	display: block;
+	position: fixed;
+	top: -0%;
+	/*left: -40%;*/
+	z-index: -9999;
+}

@@ -1,0 +1,106 @@
+#mediaheader {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #FFFCF6;
+  font-size: 16px;
+}
+
+
+.border {
+  border: 1px solid grey;
+}
+
+.padding {
+  padding: 10px 25px;
+}
+
+#margin {
+  margin-top: 20px;
+}
+
+.zero {
+  background-color: burlywood; /* orange */
+}
+
+.one {
+  background-color: #DCE2AA; /* light yellowgreen */
+}
+
+.two {
+  background-color: #B4D2BA; /* light forestgreen */
+}
+
+.three {
+  background-color: #FEFCFF; /* milk */
+}
+
+.four {
+  background-color: #FFFCF6; /* cream */
+}
+
+img {
+  /* margin: 15px 0; */
+  /* border: 1px double grey; */
+}
+
+#nopad {
+  padding: 0;
+  box-shadow: 2px 5px 5px grey;
+}
+
+.section {
+  margin-bottom: 0px;
+}
+
+.container {
+  padding-bottom: 10px;
+}
+
+h1, h3 {
+  margin: 25px 0;
+}
+
+h2 {
+  margin-bottom: 25px;
+  font-size: 1.875em;
+  line-height: 0.9em;
+}
+
+h3 {
+  font-size: 1.875em;
+}
+
+h4 {
+  font-size: 1.125em;
+}
+
+li, p {
+  font-size: 0.9375em;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  p, li {
+    font-size: 0.8125em;
+  }
+}
+
+li {
+  font-size: 15px;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  p, li {
+    font-size: 13px;
+  }
+}
